@@ -1,0 +1,9 @@
+{
+  "id": "f8c80089-e0e4-4e41-bd0b-2c6eb090ffc2",
+  "name": "kategpr",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": false
+}

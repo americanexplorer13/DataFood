@@ -1,0 +1,123 @@
+{
+  "id": "4512543d-eb25-4fb0-ad15-52a32637b8e0",
+  "name": "Список продуктов",
+  "auto": true,
+  "contexts": [
+    "PS"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "PZ",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7ef4d18b-903c-4bd0-a0da-8bee5e47053c",
+          "name": "pork",
+          "required": false,
+          "dataType": "@pork",
+          "value": "$pork",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "42b07387-191b-4fec-9853-03ec267bf054",
+          "name": "bird",
+          "required": false,
+          "dataType": "@bird",
+          "value": "$bird",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "93b08bbf-7886-468d-b077-2be51eda499e",
+          "name": "beef",
+          "required": false,
+          "dataType": "@beef",
+          "value": "$beef",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "3f673d38-baf6-458d-9b86-df73d2b1f667",
+          "name": "milk-products",
+          "required": false,
+          "dataType": "@milk-products",
+          "value": "$milk-products",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "24c4ac42-c437-452b-b39d-8cafe8db36d5",
+          "name": "geo-city",
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "value": "$geo-city",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ru",
+          "speech": [
+            "По вашему запросу найдено:\n(пожалуйста, укажите номер понравившегося продукта)"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ru",
+          "speech": [
+            "211 Рыба Рыбные котлеты. Срок кончается 19.06.2020 \n212 Мясо Упаковка говядины. Упаковку не вскрывал. Срок годности выходит 20.06.2020"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

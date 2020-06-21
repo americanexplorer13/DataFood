@@ -1,0 +1,86 @@
+{
+  "id": "ff147c5f-6e32-4ede-8c59-e30b863626c0",
+  "name": "Адрес",
+  "auto": true,
+  "contexts": [
+    "POQ"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "POE",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c140af71-856e-48a9-8f89-4fb26c19f713",
+          "name": "adres",
+          "required": false,
+          "dataType": "@adres",
+          "value": "$adres",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "586ea48e-05bf-47eb-adc3-ed30d61b6314",
+          "name": "id",
+          "required": false,
+          "dataType": "@id",
+          "value": "$id",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "",
+          "replies": [
+            "человек",
+            "животное"
+          ],
+          "textToSpeech": "",
+          "lang": "ru",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ru",
+          "speech": [
+            "Пожалуйста, выберите категорию, к которой относится продукт:"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

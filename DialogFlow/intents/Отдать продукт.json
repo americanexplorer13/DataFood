@@ -1,0 +1,42 @@
+{
+  "id": "781648bf-e5ef-481d-8320-fcbd157f67bc",
+  "name": "Отдать продукт",
+  "auto": true,
+  "contexts": [
+    "PO"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "POQ",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ru",
+          "speech": [
+            "Для того, чтобы к вам могли обратиться, пожалуйста укажите, по какому адресу вы находитесь  или ваш ID.\n(Пример: Новосибирск, Красный проспект 153)"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

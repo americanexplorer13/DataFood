@@ -1,0 +1,54 @@
+{
+  "id": "a180cd85-9268-4198-a103-819055c8209e",
+  "name": "Категория",
+  "auto": true,
+  "contexts": [
+    "POE"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "POP",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b09176fc-51cc-4379-b0b7-8b067dd32a92",
+          "name": "kategpr",
+          "required": false,
+          "dataType": "@kategpr",
+          "value": "$kategpr",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ru",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

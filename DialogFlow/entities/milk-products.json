@@ -1,0 +1,9 @@
+{
+  "id": "29973ff1-9dc2-4884-ba7a-7fb56bdf86b3",
+  "name": "milk-products",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,9 @@
+{
+  "id": "61f69995-8f1c-42e3-ad37-6a617f157a4c",
+  "name": "kontakt",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,66 @@
+{
+  "id": "df58935f-f4b2-4de9-b2ef-0dd10af299c6",
+  "name": "Приветствие",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "PP",
+          "lifespan": 5
+        },
+        {
+          "name": "PO",
+          "lifespan": 5
+        },
+        {
+          "name": "PT",
+          "lifespan": 5
+        },
+        {
+          "name": "POZ",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ru",
+          "speech": [
+            "Привет!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ru",
+          "speech": [
+            "Хотите взять еду, получить еду, узнать о ваших открытых заявках  или о том, что такое фудшеринг?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

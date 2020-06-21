@@ -1,0 +1,9 @@
+{
+  "id": "a7f80788-7f0e-4d5d-95e3-54c3c512a7b8",
+  "name": "bird",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": false
+}

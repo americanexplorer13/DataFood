@@ -1,0 +1,54 @@
+{
+  "id": "f1c8542f-e32c-4120-9d1b-b30644d7a1d5",
+  "name": "Описание продукта",
+  "auto": true,
+  "contexts": [
+    "POP"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "PKON",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "def203c9-a533-421e-a3f0-d4b7bb0a7f4e",
+          "name": "opisanie",
+          "required": false,
+          "dataType": "@opisanie",
+          "value": "$opisanie",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ru",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

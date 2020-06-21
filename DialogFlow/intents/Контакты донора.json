@@ -1,0 +1,52 @@
+{
+  "id": "5612561c-bd39-434d-a7fc-e77d109c39aa",
+  "name": "Контакты донора",
+  "auto": true,
+  "contexts": [
+    "PKON"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "2717b2f4-9283-49a3-83e3-aea0688156fd",
+          "name": "kontakt",
+          "required": false,
+          "dataType": "@kontakt",
+          "value": "$kontakt",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ru",
+          "speech": [
+            "Ожидайте, с вами свяжутся!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

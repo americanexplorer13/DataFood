@@ -1,0 +1,30 @@
+[
+  {
+    "data": [
+      {
+        "text": "Москва, Нагатинская 51",
+        "meta": "@adres",
+        "alias": "adres",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "Новосибирск, Красный проспект 153",
+        "meta": "@adres",
+        "alias": "adres",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  }
+]

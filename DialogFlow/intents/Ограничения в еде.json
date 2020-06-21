@@ -1,0 +1,57 @@
+{
+  "id": "98c51f57-05d5-4c04-b281-3e7752011db3",
+  "name": "Ограничения в еде",
+  "auto": true,
+  "contexts": [
+    "POG"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "PS",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7d16f566-decb-4810-bf1f-239a3b41594b",
+          "name": "adres",
+          "required": false,
+          "dataType": "@adres",
+          "value": "$adres",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ru",
+          "speech": [
+            "Пожалуйста укажите, есть ли у вас какие-то ограничения в еде:\na) Ем всё\nb) Не ем свинину\nc) Не ем говядину\nd) Не ем птицу\ne) Не ем молочные продукты"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

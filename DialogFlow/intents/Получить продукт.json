@@ -1,0 +1,42 @@
+{
+  "id": "d913a22a-be67-4f8a-a3c1-c16008eb1c8d",
+  "name": "Получить продукт",
+  "auto": true,
+  "contexts": [
+    "PP"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "POG",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ru",
+          "speech": [
+            "Для того, чтобы определить ближайшие к вам точки выдачи, пожалуйста укажите, по какому адресу вы находитесь  или ваш ID.\n(Пример: Новосибирск, Красный проспект 153)"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

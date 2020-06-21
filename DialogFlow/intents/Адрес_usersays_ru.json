@@ -1,0 +1,128 @@
+[
+  {
+    "data": [
+      {
+        "text": "654616",
+        "meta": "@id",
+        "alias": "id",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "684416",
+        "meta": "@id",
+        "alias": "id",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "654135",
+        "meta": "@id",
+        "alias": "id",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "895564",
+        "meta": "@id",
+        "alias": "id",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "354135",
+        "meta": "@id",
+        "alias": "id",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "356161",
+        "meta": "@id",
+        "alias": "id",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "Москва, Нагатинская 51",
+        "meta": "@adres",
+        "alias": "adres",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "Санкт-Петербуг, Пионерская 24",
+        "meta": "@adres",
+        "alias": "adres",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "Новосибирск, Красный проспект 153",
+        "meta": "@adres",
+        "alias": "adres",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  }
+]

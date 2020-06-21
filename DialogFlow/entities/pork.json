@@ -1,0 +1,9 @@
+{
+  "id": "655eaaf2-25eb-4429-905b-5bbeaa230f67",
+  "name": "pork",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": false
+}

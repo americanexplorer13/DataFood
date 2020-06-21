@@ -1,0 +1,9 @@
+{
+  "id": "ab5af814-9aa1-49e8-87f5-25c22b0e9c23",
+  "name": "vse",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": false
+}

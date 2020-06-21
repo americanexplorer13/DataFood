@@ -1,0 +1,30 @@
+[
+  {
+    "data": [
+      {
+        "text": "Рыбные котлеты. Срок кончается 19.06.2020",
+        "meta": "@opisanie",
+        "alias": "opisanie",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "Упаковка говядины. Упаковку не вскрывал. Срок годности выходит 20.06.2020",
+        "meta": "@opisanie",
+        "alias": "opisanie",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "id": "8227b7ce-80f9-4979-976e-0333b23fd1bc",
+  "name": "beef",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": false
+}

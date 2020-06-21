@@ -1,0 +1,49 @@
+{
+  "id": "ae6c8caa-6f92-49e5-9bb6-2b7f813cc4de",
+  "name": "О течении",
+  "auto": true,
+  "contexts": [
+    "PT"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "3",
+          "platform": "telegram",
+          "imageUrl": "https://www.molnet.ru/mos/image?objectId\u003d522407\u0026trim_x\u003d660",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ru",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ru",
+          "speech": [
+            "Фудшеринг — это практика распределения продуктов питания, как правило с истекающим сроком годности, между членами сообщества с помощью специальных организаций или онлайн-платформ."
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
